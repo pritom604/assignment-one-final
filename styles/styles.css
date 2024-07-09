@@ -9,3 +9,31 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+
+/* nav-section design started */
+.nav-bar{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-bar p{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+}
+.nav-bar button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    box-sizing: border-box;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    
+}
+/* nav-section design ended */

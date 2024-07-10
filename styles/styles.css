@@ -118,9 +118,13 @@ body{
 /* web development style section start */
 .web-dev-section-container{
     max-width: 1080px;
-    height: 1250px;
+    height: 1110px;
     margin: 0 auto;
     margin-top: 70px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02); border-radius: 16px;
+   
+    
 }
 .web-dev-section-content{
     max-width: 880px;
@@ -208,3 +212,45 @@ body{
 }
 
 /* web development style section end */
+
+/* inspiration style section starts */
+.inspiration-section-container{
+    max-width: 1080px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.inspiration-title{
+    width: 75%;
+    height: 20%;
+    margin: 0 auto;
+   text-align: center;
+}
+.inspiration-title h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.inspiration-title p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.inspiration-video-container{
+    width: 90%;
+    height: 70%;
+    margin-top: 40px;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.i-frame{
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+/* inspiration style section ends */

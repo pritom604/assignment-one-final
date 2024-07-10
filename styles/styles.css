@@ -114,3 +114,97 @@ body{
 }
 
 /* banner style section ended */
+
+/* web development style section start */
+.web-dev-section-container{
+    max-width: 1080px;
+    height: 1250px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.web-dev-section-content{
+    max-width: 880px;
+    height: 1150px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.web-section-title{
+    width: 90%;
+    height: 15%;
+    margin: 0 auto;
+    
+}
+.web-section-title h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+} 
+.web-section-title p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 24px;
+    text-align: center;
+
+} 
+.web-card-1 , .web-card-2 , .web-card-3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    border-radius: 16px;
+    background-image:  linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    /* justify-content: space-between;
+    align-items: center; */
+}
+.web-card-1-content , .web-card-2-content , .web-card-3-content{
+    width: 90%;
+    min-height: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.web-card-1-content h2, .web-card-2-content h2 , .web-card-3-content h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+.web-card-1-content p , .web-card-2-content p , .web-card-3-content p   {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 16px;
+}
+.web-card-1-img ,  .web-card-3-img{
+    width: 250px;
+    height: 188px;
+    margin-top: 20px;
+}
+.web-card-2-img {
+    width: 250px;
+    height: 188px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+.web-card-1-img img ,.web-card-2-img img , .web-card-3-img img  {
+    width: 100%;
+    height: 100%
+    
+}
+.web-card-1-content button ,.web-card-2-content button, .web-card-3-content button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 10px 18px ;
+    margin-top: 25px;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+/* web development style section end */

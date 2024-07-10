@@ -260,6 +260,7 @@ body{
     max-width: 1080px;
     height: 430px;
     margin: 0 auto;
+    margin-top: 150px;
 }
 .skill-container-title{
     width: 80%;
@@ -338,3 +339,49 @@ body{
    }
 
 /* current section style end */ 
+
+/* next-target-section style starts */
+.next-target-container{
+    width: 1080px;
+    height: 600px;
+    margin:0 auto; 
+    margin-top: 150px;
+
+}
+.tech-container{
+    max-width: 1080px;
+    height: 150px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.tech-description h3{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+.tech-description p{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 10px;
+    
+}
+.tech-description a{
+    display: block;
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+
+/* next-target-section style ends */
